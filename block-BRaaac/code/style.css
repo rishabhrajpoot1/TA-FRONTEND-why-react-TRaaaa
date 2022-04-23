@@ -167,7 +167,7 @@ input {
   padding: 1rem 0.5rem;
   border-radius: 0.25rem;
 }
-.name {
+.name2{
   font-size: 1.1rem;
   font-weight: 600;
 }
@@ -186,4 +186,10 @@ span:hover {
 .tick{
     font-size: 1.5rem;
     border-radius: 50%;
+}
+
+.name{
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: line-through;
 }
