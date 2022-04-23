@@ -4,6 +4,7 @@ var root = document.querySelector('ul');
 // State to store mpvies
 var moviesList = [];
 
+
 // Handling Watched/Unwatched
 function handleToggle(event) {
   let id = event.target.dataset.id;
@@ -48,6 +49,8 @@ function createElm(type, attr = {}, ...childern) {
 
 // Display Movies
 function displayMovies(moviesArr = []) {
+  console.log(moviesArr);
+
   root.innerHTML = '';
   moviesArr.forEach((elm, index) => {
       var li = createElm(
@@ -62,7 +65,7 @@ function displayMovies(moviesArr = []) {
     }),
 
        createElm('p', {
-        className: 'name',
+        className: `${elm.isWached ? 'name' : 'name2'}`,
         innerText: elm.name,
       }),
 
