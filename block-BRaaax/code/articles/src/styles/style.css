@@ -1,0 +1,25 @@
+.button--tertiary {
+    background-color: grey;
+  }
+  .button--secondary {
+    background-color: rgb(94, 61, 184);
+  }
+  .button--primary {
+    background-color: rgb(238, 114, 114);
+  }
+  .button--large {
+    width: 300px;
+  }
+  .button--medium {
+    width: 200px;
+  }
+  .button--small {
+    width: 100px;
+  }
+  .button {
+    display: block;
+    margin: 20px 0;
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+  }
